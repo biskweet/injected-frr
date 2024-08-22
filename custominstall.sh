@@ -1,4 +1,4 @@
-apt install libgrpc++-dev protobuf-compiler-grpc libsqlite3-dev libzmq5 libzmq3-dev
+apt install -y libgrpc++-dev protobuf-compiler-grpc libsqlite3-dev libzmq5 libzmq3-dev
 groupadd -r -g 92 frr
 groupadd -r -g 85 frrvty
 adduser --system --ingroup frr --home /var/run/frr/ \
